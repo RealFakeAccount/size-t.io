@@ -25,11 +25,6 @@ jobs:
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Hugo Clean
-        uses: heowc/action-hexo@main
-        with:
-          args: clean
-
       - name: Hugo Generate
         uses: heowc/action-hexo@main
         with:
