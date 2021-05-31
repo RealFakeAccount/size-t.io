@@ -25,18 +25,23 @@ jobs:
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Hugo Generate
-        uses: heowc/action-hexo@main
+      
+      # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
+      - name: Cache node modules
+        uses: actions/cache@v1
+        id: cache
         with:
-          args: generate
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci
 
-      - name: Copy folder content recursively to remote
-        uses: garygrossgarten/github-action-scp@release
-        with:
-          local: public/
-          remote: ${{ secrets.REMOTE_TARGET }}
-          host: ${{ secrets.REMOTE_HOST }}
-          port: ${{ secrets.REMOTE_PORT }}
-          username: ${{ secrets.REMOTE_USER }}
-          privateKey : ${{ secrets.SERVER_SSH_KEY }}
-          rmRemote: true
+      - name: Install hugo
+      - run: npm install hexo-cli -g
+      - run: npm install hexo-deployer-git --save
+          
+      - name: Generate site
+      - run: hexo g
