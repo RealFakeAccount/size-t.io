@@ -9,12 +9,12 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "5.2.0"
   },
   "dependencies": {
     "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
     "cheerio": "^1.0.0-rc.3",
-    "hexo": "^4.0.0",
+    "hexo": "^5.2.0",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
