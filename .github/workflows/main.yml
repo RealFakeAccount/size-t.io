@@ -47,3 +47,6 @@ jobs:
           
       - name: Generate site
         run: hexo g
+
+      - name: show public files
+        run: echo public/*
