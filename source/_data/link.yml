@@ -1,14 +1,14 @@
+
 class:
-  class_name: 友链
+  class_name: My friends
   link_list:
     1:
       name: gsbush23
       link: https://gsbush23.org/
       avatar: https://gsbush23.org/assets/img/logo.webp
-      descr: Genius studied in UWM / 在UWM学习cs的巨巨
+      descr: Genius who studied in UWM
     2:
       name: Georgia Flynn
       link: https://georgiaflynn.com/
       avatar: https://georgiaflynn.com/image/avatar.jpg
       descr: Movie, philosofhy, major in CS, studied in UWM 
- 

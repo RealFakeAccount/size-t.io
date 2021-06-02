@@ -1,9 +1,10 @@
 ---
 title: Strategy in SQL injection
 date: 2020-09-08 03:47:03
+updated:
 tags:
  - CTF
-cover: /images/SQL-injection.jpg
+cover: /img/SQL-injection.jpg
 ---
 ### Union Operator
 

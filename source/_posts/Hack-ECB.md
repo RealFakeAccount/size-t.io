@@ -3,7 +3,7 @@ title: Hacking the ECB!
 date: 2020-09-11 16:01:14
 tags:
  - CTF
-cover: /images/Hack-ECB.png
+cover: /img/Hack-ECB.png
 ---
 
 This article is not about cracking ECB encryption, but how to abuse it. If you are looking for how to bruteforce ECB, this is not what you are looking for.
