@@ -49,10 +49,7 @@ jobs:
         run: npm ci
 
       - name: Install hugo
-        run: sudo npm install hexo-cli -g
-
-      - name: Install hugo deployer
-        run: sudo npm install hexo-deployer-git --save
+        run: sudo npm install hexo-cli hexo-renderer-pug hexo-renderer-stylus hexo-wordcount -g
           
       - name: Generate site
         run: hexo g
