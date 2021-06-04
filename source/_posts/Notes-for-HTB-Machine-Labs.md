@@ -1,7 +1,7 @@
 ---
 title: Notes for HTB Machine Labs
 date: 2021-05-12 07:17:58
-updated: 2021-06-02
+updated: 2021-06-04
 tags:
  - CTF
  - HTB
