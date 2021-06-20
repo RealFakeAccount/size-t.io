@@ -1,7 +1,7 @@
 ---
 title: Notes for HTB Machine Labs
 date: 2021-05-12 07:17:58
-updated: 2021-06-06
+updated: 2021-06-20
 tags:
  - CTF
  - HTB
@@ -278,3 +278,13 @@ Root: 2 ways. Either add a new credential in `/etc/passwd`, or use `/var/htb/bin
 find / -type f -user root -perm -4000 2>/dev/null
 ```
 to find the emergency file.
+
+
+### Celestial
+
+- short write-ups
+
+User: Nodejs deserialization exploit. <https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/>
+
+Root: Notice the `script.py` in /home/sun/Documents is crontabed by root. Modify it to generate a reverse shell from root.
+
