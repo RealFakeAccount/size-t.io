@@ -1,7 +1,7 @@
 ---
 title: Notes for HTB Machine Labs
 date: 2021-05-12 07:17:58
-updated: 2021-06-25
+updated: 2021-06-28
 tags:
  - CTF
  - HTB
@@ -323,3 +323,17 @@ Root: sudo tells us we can run `/bin/fuckin` without password. Check the file an
 - what I learnt
 
 1. `steghide`
+
+### Luke
+
+- short write-ups
+
+The process is too long for a short write up.
+
+So, <https://0xdf.gitlab.io/2019/09/14/htb-luke.html>
+
+- what I learnt:
+
+1. HTTP OPTION for guessing the API type
+
+2. wfuzz advance usage
