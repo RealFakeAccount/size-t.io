@@ -2,6 +2,7 @@
 title: Proving-Ground-Nickel-Walkthrough
 date: 2022-06-18 19:09:53
 tags: ProvingGround
+cover: /img/nickle.jpg
 ---
 
 # Nickel
