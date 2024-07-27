@@ -3,16 +3,6 @@ class:
   class_name: My friends
   link_list:
     1:
-      name: gsbush23
-      link: https://gsbush23.org/
-      avatar: https://gsbush23.org/assets/img/logo.webp
-      descr: Genius who studied in UWM
-    2:
-      name: Georgia Flynn
-      link: https://georgiaflynn.com/
-      avatar: https://georgiaflynn.com/image/avatar.jpg
-      descr: Movie, philosofhy, major in CS, studied in UWM 
-    3:
       name: Kevin Gao
       link: https://terra-incognita.dev/
       avatar: https://www.gravatar.com/avatar/3df2b094b92bf58f2e7bb4388abed754?s=250
